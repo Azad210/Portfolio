@@ -1,0 +1,65 @@
+[
+    {
+        "date": "Lørdag. 2024-08-24",
+        "temperature": {
+            "high": 22,
+            "low": 14
+        },
+        "conditions": "Delvist skyet",
+        "precipitation": "10%"
+    },
+    {
+        "date": "Søndag. 2024-08-25",
+        "temperature": {
+            "high": 24,
+            "low": 15
+        },
+        "conditions": "Solrigt",
+        "precipitation": "0%"
+    },
+    {
+        "date": "Mandag. 2024-08-26",
+        "temperature": {
+            "high": 21,
+            "low": 13
+        },
+        "conditions": "Skyet",
+        "precipitation": "20%"
+    },
+    {
+        "date": "Tirsdag. 2024-08-27",
+        "temperature": {
+            "high": 19,
+            "low": 12
+        },
+        "conditions": "Regn",
+        "precipitation": "70%"
+    },
+    {
+        "date": "Onsdag. 2024-08-28",
+        "temperature": {
+            "high": 20,
+            "low": 13
+        },
+        "conditions": "Byger",
+        "precipitation": "50%"
+    },
+    {
+        "date":"Torsdag. 2024-08-29",
+        "temperature": {
+            "high": 23,
+            "low": 14
+        },
+        "conditions": "Solrigt",
+        "precipitation": "0%"
+    },
+    {
+        "date": "Fredag. 2024-08-30",
+        "temperature": {
+            "high": 22,
+            "low": 13
+        },
+        "conditions": "Delvist skyet",
+        "precipitation": "10%"
+    }
+]

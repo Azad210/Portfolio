@@ -1,0 +1,19 @@
+$background-color: darkgreen;
+
+tr {
+    background-color: darkgreen;
+}
+
+@for $i from 1 through 11 {
+    tr:nth-child(#{$i}) {
+        background-color: lighten($background-color, $i * 5%);
+    }
+}
+
+h2{
+    text-align: center;
+}
+
+table{
+    width: 100%;
+}

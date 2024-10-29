@@ -1,0 +1,96 @@
+[
+  {
+    "img": "/img/The Witcher 3- Wild Hunt.jpg",
+    "title": "The Witcher 3: Wild Hunt",
+    "publisher": "CD Projekt",
+    "price": 49.99,
+    "platform": ["PC", "PS4", "Xbox One", "Nintendo Switch"]
+  },
+  {
+    "img": "/img/Cyberpunk 2077.jpg",
+    "title": "Cyberpunk 2077",
+    "publisher": "CD Projekt",
+    "price": 59.99,
+    "platform": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X/S"]
+  },
+  {
+    "img": "/img/Minecraft.jpg",
+    "title": "Minecraft",
+    "publisher": "Mojang Studios",
+    "price": 26.95,
+    "platform": ["PC", "PS4", "Xbox One", "Nintendo Switch", "Mobile"]
+  },
+  {
+    "img": "/img/FC25.jpg",
+    "title": "FC 25",
+    "publisher": "EA SPORTS",
+    "price": 69.99,
+    "platform": ["PC", "PS4", "Xbox One", "Nintendo Switch"]
+  },
+  {
+    "img": "/img/Grand Theft Auto V.jpg",
+    "title": "Grand Theft Auto V",
+    "publisher": "Rockstar Games",
+    "price": 29.99,
+    "platform": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X/S"]
+  },
+  {
+    "img": "/img/Elden Ring.jpg",
+    "title": "Elden Ring",
+    "publisher": "Bandai Namco Entertainment",
+    "price": 59.99,
+    "platform": ["PC", "PS4", "PS5", "Xbox One", "Xbox Series X/S"]
+  },
+  {
+    "img": "/img/Half-Life- Alyx.jpg",
+    "title": "Half-Life: Alyx",
+    "publisher": "Valve",
+    "price": 59.99,
+    "platform": ["PC"]
+  },
+  {
+    "img": "/img/Disco Elysium- The Final Cut.jpg",
+    "title": "Disco Elysium: The Final Cut",
+    "publisher": "ZA/UM",
+    "price": 49.99,
+    "platform": [
+      "PC",
+      "PS4",
+      "PS5",
+      "Xbox One",
+      "Xbox Series X/S",
+      "Nintendo Switch"
+    ]
+  },
+
+  {
+    "img": "/img/XCOM 2.jpg",
+    "title": "XCOM 2",
+    "publisher": "2K Games",
+    "price": 59.99,
+    "platform": ["PC", "PS4", "Xbox One", "Nintendo Switch"]
+  },
+  {
+    "img": "/img/League of Legends.jpg",
+    "title": "League of Legends",
+    "publisher": "Riot Games",
+    "price": 0,
+    "platform": ["PC"]
+  },
+
+  {
+    "img": "/img/Portal 2.jpg",
+    "title": "Portal 2",
+    "publisher": "Valve",
+    "price": 9.99,
+    "platform": ["PC", "PS3", "Xbox 360"]
+  },
+
+  {
+    "img": "/img/cs.jpg",
+    "title": "Counter-strike global offensive 2",
+    "publisher": "Valve Corporation",
+    "price": 29.99,
+    "platform": ["PC"]
+  }
+]
