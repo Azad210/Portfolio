@@ -14,7 +14,7 @@ html {
 
 /* Forsiden med billede, tekst og knappe */
 .frontpage {
-    background-image: url('/img/COLOURBOX48112177.jpg'); 
+    background-image: url('../img/COLOURBOX48112177.jpg'); 
     background-size: cover;
     background-position: center;
     height: 100vh;
