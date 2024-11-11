@@ -1,156 +1,105 @@
 @import url(../css/nav-footer.css);
 
-*,
-::before,
-*::after {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
-/* Forsiden med billede, tekst og knappe */
-.frontpage {
-    background-image: url('../img/COLOURBOX48112177.jpg'); 
-    background-size: cover;
-    background-position: center;
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
     height: 100vh;
+    background-color: #f3f3f3;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    margin: 0 auto;
+}
+
+.profile {
+    flex: 1;
+}
+
+.profile-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.content {
+    flex: 1;
+    max-width: 500px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.button {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 50%;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    
+    transition: transform 0.3s;
 }
 
-.frontpage-content h1 {
-    font-size: 3rem;
-    margin: 0;
+.button.resume {
+    background-color: #f5a623;
 }
 
-.frontpage-content p {
-    font-size: 1.5rem;
-    margin: 10px 0;
-    margin-bottom: 20px;
+.button.projects {
+    background-color: #f55a4e;
 }
 
-.btn {
-    background-color: #ff5733;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+.button.contact {
+    background-color: #4ecdc4;
 }
 
-.btn:hover {
-    background-color: #c0392b;
+.button:hover {
+    transform: scale(1.1);
 }
-
-/* Forsiden med billede, tekst og knappe */
-
-#historie {
-    background-color: #707070;
-   min-height: 800px;
-  }
-  
-  #historie p {
-    line-height: 2.7rem;
-    font-size: 2rem;
-    color: white;
-  }
-  
-  #historie h2 {
-    text-align: center;
-    padding-top: 85px;
-    font-size: 3rem;
-    color: white;
-    margin-bottom: 82px;
-  }
-  
-  #tree-columns {
-    max-width: 1080px;
-    margin: 0 auto;
-    columns: 2;
-    column-width: 515px;
-    column-gap: 40px;
-    padding-bottom: 50px;
-  }
-  
-  #tree-columns p {
-    margin-bottom: 40px;
-    line-height: normal;
-    text-align: left;
-    color: white;
-    font-size: 1rem;
-    line-height: 24px;
-  }
-  
-  #tree-columns h3 {
-    font-size: 2rem;
-    color: white;
-    margin-bottom: 20px;
-  }
-
-/* slider */
-.slider {
-    position: relative;
-    max-width: 1000px;
-    margin: 20px auto;
-    overflow: hidden;
-}
-
-.slides {
-    display: flex;
-    transition: transform 0.5s ease;
-}
-
-.slide {
-    min-width: 100%;
-    display: block;
-}
-
-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(255, 255, 255, 0.5);
-    border: none;
-    cursor: pointer;
-    font-size: 24px;
-    padding: 10px;
-    z-index: 100;
-}
-
-.prev {
-    left: 10px;
-}
-
-.next {
-    right: 10px;
-}
-/* slider */
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Responsiv styling */
 @media (max-width: 768px) {
     .burger {
         display: block; 
+        width: 100%;
+        justify-content: start;
     }
 
     .nav-links {
@@ -162,7 +111,7 @@ button {
         left: 0;
         background-color: rgba(51, 51, 51, 0.9);
         z-index: 999; 
-    }
+    }    
 
     .nav-links.active {
         display: flex; 
@@ -173,44 +122,13 @@ button {
         text-align: center; 
     }
 
-    .hero-content h1 {
-        font-size: 36px;
-    }
-
-    .hero-content p {
-        font-size: 20px;
-    }
-    .footer-container {
+    .container {
+        display: flex;
         flex-direction: column;
-       align-items: center;
-        
-        
+        margin-bottom: 20px;
+        margin-top: 20px;
     }
-    
-    .footer-column {
-        margin-bottom: 30px;
-    }
-    
-    .footer-payment {
-        text-align: center;
-    }
-    
+
 }
 
 
-
-
-@media (max-width: 480px) {
-    .hero-content h1 {
-        font-size: 28px;
-    }
-
-    .hero-content p {
-        font-size: 18px;
-    }
-
-    .btn {
-        padding: 8px 16px;
-    }
-}
-/* Responsiv styling */
