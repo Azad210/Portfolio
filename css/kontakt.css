@@ -9,8 +9,6 @@
 
 
 body {
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     background-color: #f4f4f9;
 }
@@ -25,6 +23,7 @@ body {
     text-align: center;
     justify-content: center;
     margin-top: 150px;
+    margin-bottom: 50px;
     
 }
 
