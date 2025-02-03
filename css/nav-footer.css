@@ -132,7 +132,7 @@ footer {
 
 .footer-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 kolonner */
+    grid-template-columns: repeat(3, 1fr); 
     gap: 2rem;
 }
 
@@ -143,7 +143,7 @@ footer {
 .footer-col h3 {
     font-size: 1.3rem;
     margin-bottom: 1rem;
-    color: #ff6347; /* Orange farve til overskrifter */
+    color: #ff6347;
 }
 
 .footer-col p, .footer-col ul {
@@ -166,13 +166,13 @@ footer {
 }
 
 .footer-col a:hover {
-    color: #ff6347; /* Skift til orange ved hover */
+    color: #ff6347; 
 }
 
 /* Responsiv design */
 @media (max-width: 768px) {
     .footer-container {
-        grid-template-columns: 1fr 1fr; /* To kolonner på mobil */
+        grid-template-columns: 1fr 1fr; 
     }
 
     footer{
@@ -183,7 +183,7 @@ footer {
 
 @media (max-width: 480px) {
     .footer-container {
-        grid-template-columns: 1fr; /* En kolonne på ekstra små skærme */
+        grid-template-columns: 1fr; 
        
         text-align: center;
     }
@@ -193,4 +193,4 @@ footer {
 }
 
 
-/* footer */
+/* footer */ 
